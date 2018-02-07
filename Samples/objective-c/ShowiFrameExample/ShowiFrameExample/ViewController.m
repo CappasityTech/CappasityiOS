@@ -8,7 +8,6 @@
 @property (weak, nonatomic) IBOutlet CappasityModelView *modelView;
 
 @property CappasityModel *model;
-@property CappasityService *service;
 
 @property UIActivityIndicatorView *activityIndicator;
 
@@ -23,12 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _service = [[CappasityService alloc] initWithDelegate:self];
-    [_service loginWith:@""]; //enter your token
-    
     _activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];
     [_activityIndicator setCenter:CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2)];
     [self.view addSubview:_activityIndicator];
+    
+    _modelView.delegate = self;
+    _modelView.viewController = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -72,16 +71,14 @@
 
 //MARK: - CappasityModelDelegate method
 - (void)modelInfoReceived {
-    [_activityIndicator stopAnimating];
-    
     CappasityModelViewParams *params = [[CappasityModelViewParams alloc] init];
     params.autoRun = true;
     [_modelView setWithModel:_model params:params];
 }
 
-//MARK: - CappasityServiceDelegate method
-- (void)loginCompleted {
-    
+//MARK: - CappasityModelViewDelegate method
+- (void)contentLoaded {
+    [_activityIndicator stopAnimating];
 }
 
 @end

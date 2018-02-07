@@ -22,8 +22,7 @@ class ViewController: UIViewController {
         
         return activityIndicator
     }()
-    
-    fileprivate var service: CappasityService?
+
     fileprivate var model: CappasityModel?
     
     override var shouldAutorotate: Bool {
@@ -37,10 +36,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.service = CappasityService(delegate: self)
-        self.service?.login(with: "") //enter your token
         self.skuField.placeholder = "Enter sku"
         
+        self.modelView.delegate = self
         self.modelView.viewController = self
         
         initGestureRecognizer()
@@ -84,17 +82,16 @@ extension ViewController: CappasityModelDelegate {
     
     //MARK: - CappasityModelDelegate method
     func modelInfoReceived() {
-        self.activityIndicator.stopAnimating()
         if let model = self.model {
             self.modelView.set(model, autoRun: true)
         }
     }
 }
 
-extension ViewController: CappasityServiceDelegate {
+extension ViewController: CappasityModelViewDelegate {
     
-    //MARK: - CappasityServiceDelegate method
-    func loginCompleted() {
-        
+    //MARK: - CappasityModelViewDelegate method
+    func contentLoaded() {
+        self.activityIndicator.stopAnimating()
     }
 }

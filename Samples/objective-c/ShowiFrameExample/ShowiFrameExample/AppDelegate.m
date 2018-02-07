@@ -11,6 +11,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [CappasityService setWithUserAlias:@""]; //enter user's alias
     return YES;
 }
 

@@ -194,27 +194,6 @@ SWIFT_PROTOCOL("_TtP9Cappasity17CappasityDelegate_")
 - (void)cappasityMessage:(NSString * _Nonnull)message;
 @end
 
-
-SWIFT_CLASS("_TtC9Cappasity24CappasityEmbedCodeParams")
-@interface CappasityEmbedCodeParams : NSObject
-@property (nonatomic, copy) NSString * _Nonnull width;
-@property (nonatomic, copy) NSString * _Nonnull height;
-@property (nonatomic) BOOL autoRotate;
-@property (nonatomic) BOOL autoRun;
-@property (nonatomic) BOOL closeButton;
-@property (nonatomic) BOOL showLogo;
-@property (nonatomic) float autoRotateTime;
-@property (nonatomic) float autoRotateDelay;
-@property (nonatomic) NSInteger autoRotateDir;
-@property (nonatomic) BOOL hideFullScreen;
-@property (nonatomic) BOOL hideAutoRotateOptions;
-@property (nonatomic) BOOL hideSettingsButton;
-@property (nonatomic) BOOL enableImageZoom;
-@property (nonatomic) NSInteger zoomQuality;
-@property (nonatomic) BOOL hideZoomOption;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @protocol CappasityModelDelegate;
 enum FileAccessType : NSInteger;
 
@@ -228,17 +207,8 @@ SWIFT_CLASS("_TtC9Cappasity14CappasityModel")
 - (nonnull instancetype)initWithId:(NSString * _Nonnull)id delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithSku:(NSString * _Nonnull)sku delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
 - (void)receiveInfo;
-- (void)remove;
 - (void)getPreviewWithWidthPx:(NSUInteger)widthPx heightPx:(NSUInteger)heightPx userInfo:(id _Nullable)userInfo;
 - (void)getPreviewWithWidthPt:(NSUInteger)widthPt heightPt:(NSUInteger)heightPt userInfo:(id _Nullable)userInfo;
-- (void)updateWithTitle:(NSString * _Nonnull)title sku:(NSString * _Nonnull)sku access:(NSInteger)access;
-- (void)updateWithTitle:(NSString * _Nonnull)title access:(NSInteger)access;
-- (void)updateWithSku:(NSString * _Nonnull)sku access:(NSInteger)access;
-- (void)updateWithTitle:(NSString * _Nonnull)title sku:(NSString * _Nonnull)sku;
-- (void)updateWithTitle:(NSString * _Nonnull)title;
-- (void)updateWithSku:(NSString * _Nonnull)sku;
-- (void)updateWithAccess:(NSInteger)access;
-- (NSString * _Nullable)embedCodeWith:(CappasityEmbedCodeParams * _Nonnull)params SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 @end
 
@@ -247,8 +217,6 @@ SWIFT_CLASS("_TtC9Cappasity14CappasityModel")
 SWIFT_PROTOCOL("_TtP9Cappasity22CappasityModelDelegate_")
 @protocol CappasityModelDelegate <CappasityDelegate>
 - (void)modelInfoReceived;
-- (void)modelUpdated;
-- (void)modelRemoved;
 - (void)previewReceivedWithPreview:(UIImage * _Nonnull)preview userInfo:(id _Nullable)userInfo;
 @end
 
@@ -270,6 +238,7 @@ SWIFT_CLASS("_TtC9Cappasity18CappasityModelView")
 
 SWIFT_PROTOCOL("_TtP9Cappasity26CappasityModelViewDelegate_")
 @protocol CappasityModelViewDelegate <CappasityDelegate>
+- (void)contentLoaded;
 @end
 
 
@@ -294,8 +263,8 @@ SWIFT_CLASS("_TtC9Cappasity24CappasityModelViewParams")
 SWIFT_CLASS("_TtC9Cappasity19CappasityModelsList")
 @interface CappasityModelsList : NSObject
 - (nullable instancetype)initWithDelegate:(id <CappasityModelsListDelegate> _Nonnull)delegate OBJC_DESIGNATED_INITIALIZER;
-- (BOOL)nextModelsWithLimit:(NSInteger)limit offset:(NSInteger)offset SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)nextModelsWithLimit:(NSInteger)limit SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)nextModelsWithCount:(NSInteger)count offset:(NSInteger)offset SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)nextModelsWithCount:(NSInteger)count SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isValid SWIFT_WARN_UNUSED_RESULT;
 - (void)clearStatus;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -307,19 +276,11 @@ SWIFT_PROTOCOL("_TtP9Cappasity27CappasityModelsListDelegate_")
 - (void)receivedWithModels:(NSArray<CappasityModel *> * _Nonnull)models;
 @end
 
-@protocol CappasityServiceDelegate;
 
 SWIFT_CLASS("_TtC9Cappasity16CappasityService")
 @interface CappasityService : NSObject
-- (nonnull instancetype)initWithDelegate:(id <CappasityServiceDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
-- (void)loginWith:(NSString * _Nonnull)token;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-@end
-
-
-SWIFT_PROTOCOL("_TtP9Cappasity24CappasityServiceDelegate_")
-@protocol CappasityServiceDelegate <CappasityDelegate>
-- (void)loginCompleted;
++ (void)setWithUserAlias:(NSString * _Nonnull)userAlias;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 typedef SWIFT_ENUM(NSInteger, FileAccessType) {

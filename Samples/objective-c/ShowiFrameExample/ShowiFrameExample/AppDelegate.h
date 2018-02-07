@@ -1,5 +1,6 @@
 
 #import <UIKit/UIKit.h>
+#import "Cappasity/Cappasity-Swift.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
