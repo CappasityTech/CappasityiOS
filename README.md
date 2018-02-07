@@ -1,8 +1,8 @@
-# Cappasity iOS Framework v0.3
+# Cappasity iOS Framework v0.4
 
 CappasityFramework contains functionality for working with models on the Cappasity platform, i.e.:
 * obtaining the models
-* obtaining the properties of a given model, updating the properties, deleting the model
+* obtaining the properties of a given model
 * displaying the model
 
 Copyright (c) 2017 - 2018, Cappasity Inc. All rights reserved.
