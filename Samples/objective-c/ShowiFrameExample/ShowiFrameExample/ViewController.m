@@ -65,11 +65,6 @@
 }
 
 //MARK: - CappasityModelDelegate method
-- (void)cappasityMessage:(NSString * _Nonnull)message { 
-    
-}
-
-//MARK: - CappasityModelDelegate method
 - (void)modelInfoReceived {
     CappasityModelViewParams *params = [[CappasityModelViewParams alloc] init];
     params.autoRun = true;

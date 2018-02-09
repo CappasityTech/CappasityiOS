@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Cappasity-Swift.h</key>
 		<data>
-		E0wGcsIPWN+j0Nyp6C46E6r1FG8=
+		uEjJ+TSxfjqnI4j6OdZnyn/YmiM=
 		</data>
 		<key>Headers/CappasityObjcFramework.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/arm.swiftmodule</key>
 		<data>
-		ec97a9W3djHQSSpydK+2qsb84vI=
+		nH7XnfNj5pTS3KtKYMdZtvRsNl4=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		Sbw3BQ4dChADF4J9G4lJCikWzDc=
+		OvfeavMVstX9oA2cKNAPZuZNYCU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			E0wGcsIPWN+j0Nyp6C46E6r1FG8=
+			uEjJ+TSxfjqnI4j6OdZnyn/YmiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			tzUAaZ2qtYdOG6y6GXzAG3lYvQ6STJt5LK+EZhiCOv4=
+			KJjnpUfdewvuKKhG4pwaPi9UpF8pI7S5l5Fliam+NfI=
 			</data>
 		</dict>
 		<key>Headers/CappasityObjcFramework.h</key>
@@ -76,11 +76,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ec97a9W3djHQSSpydK+2qsb84vI=
+			nH7XnfNj5pTS3KtKYMdZtvRsNl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			riy+j2lGrk1dPLLEBMcRA9sVlFVeiWDtZaR0OPg1b4Q=
+			med/iBadKrWnG9VN+Pb/YrIbx+/7cndLlOgh0TQZwxo=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/arm64.swiftdoc</key>
@@ -98,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Sbw3BQ4dChADF4J9G4lJCikWzDc=
+			OvfeavMVstX9oA2cKNAPZuZNYCU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Lg1oB/Iu4o/CUF6UUCu8G7TUIn0dVxi8AZGmmoqaQnQ=
+			YVGVNlsahYL6tVCxumX2+EZJLc2T2JAHJAISvVssZ1k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

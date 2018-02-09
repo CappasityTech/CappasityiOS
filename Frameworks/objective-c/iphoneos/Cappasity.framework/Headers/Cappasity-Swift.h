@@ -191,7 +191,6 @@ SWIFT_MODULE_NAMESPACE_PUSH("Cappasity")
 SWIFT_PROTOCOL("_TtP9Cappasity17CappasityDelegate_")
 @protocol CappasityDelegate
 - (void)cappasityErrorWithCode:(NSInteger)code description:(NSString * _Nonnull)description;
-- (void)cappasityMessage:(NSString * _Nonnull)message;
 @end
 
 @protocol CappasityModelDelegate;

@@ -76,11 +76,6 @@ extension ViewController: CappasityModelDelegate {
     }
     
     //MARK: - CappasityModelDelegate method
-    func cappasityMessage(_ message: String) {
-        Message.alert(viewController: self, title: nil, message: message, handler: nil)
-    }
-    
-    //MARK: - CappasityModelDelegate method
     func modelInfoReceived() {
         if let model = self.model {
             self.modelView.set(model, autoRun: true)
