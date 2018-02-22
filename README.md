@@ -1,4 +1,4 @@
-# Cappasity iOS Framework v0.4.1
+# Cappasity iOS Framework v0.4.2
 
 CappasityFramework contains functionality for working with models on the Cappasity platform, i.e.:
 * obtaining the models

@@ -190,7 +190,7 @@ SWIFT_MODULE_NAMESPACE_PUSH("Cappasity")
 
 SWIFT_PROTOCOL("_TtP9Cappasity17CappasityDelegate_")
 @protocol CappasityDelegate
-- (void)cappasityErrorWithCode:(NSInteger)code description:(NSString * _Nonnull)description;
+- (void)capServiceWithDidReceive:(NSInteger)error description:(NSString * _Nonnull)description;
 @end
 
 @protocol CappasityModelDelegate;
@@ -215,8 +215,8 @@ SWIFT_CLASS("_TtC9Cappasity14CappasityModel")
 
 SWIFT_PROTOCOL("_TtP9Cappasity22CappasityModelDelegate_")
 @protocol CappasityModelDelegate <CappasityDelegate>
-- (void)modelInfoReceived;
-- (void)previewReceivedWithPreview:(UIImage * _Nonnull)preview userInfo:(id _Nullable)userInfo;
+- (void)capServiceDidReceiveModelInfo;
+- (void)capServiceWithDidReceive:(UIImage * _Nonnull)preview userInfo:(id _Nullable)userInfo;
 @end
 
 @protocol CappasityModelViewDelegate;
@@ -231,13 +231,14 @@ SWIFT_CLASS("_TtC9Cappasity18CappasityModelView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)stopLoading;
+- (void)reload;
 - (void)setWithModel:(CappasityModel * _Nonnull)model params:(CappasityModelViewParams * _Nonnull)params;
 @end
 
 
 SWIFT_PROTOCOL("_TtP9Cappasity26CappasityModelViewDelegate_")
 @protocol CappasityModelViewDelegate <CappasityDelegate>
-- (void)contentLoaded;
+- (void)capServiceDidLoadContent;
 @end
 
 
@@ -272,7 +273,7 @@ SWIFT_CLASS("_TtC9Cappasity19CappasityModelsList")
 
 SWIFT_PROTOCOL("_TtP9Cappasity27CappasityModelsListDelegate_")
 @protocol CappasityModelsListDelegate <CappasityDelegate>
-- (void)receivedWithModels:(NSArray<CappasityModel *> * _Nonnull)models;
+- (void)capServiceWithDidReceive:(NSArray<CappasityModel *> * _Nonnull)models;
 @end
 
 

@@ -50,7 +50,7 @@
 }
 
 //MARK: - CappasityModelDelegate method
-- (void)cappasityErrorWithCode:(NSInteger)code description:(NSString * _Nonnull)description { 
+- (void)capServiceWithDidReceive:(NSInteger)error description:(NSString * _Nonnull)description {
     [_activityIndicator stopAnimating];
     
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Error"
@@ -65,14 +65,19 @@
 }
 
 //MARK: - CappasityModelDelegate method
-- (void)modelInfoReceived {
+- (void)capServiceDidReceiveModelInfo {
     CappasityModelViewParams *params = [[CappasityModelViewParams alloc] init];
     params.autoRun = true;
     [_modelView setWithModel:_model params:params];
 }
 
 //MARK: - CappasityModelViewDelegate method
-- (void)contentLoaded {
+- (void)capServiceWithDidReceive:(UIImage * _Nonnull)preview userInfo:(id _Nullable)userInfo {
+    
+}
+
+//MARK: - CappasityModelViewDelegate method
+- (void)capServiceDidLoadContent {
     [_activityIndicator stopAnimating];
 }
 

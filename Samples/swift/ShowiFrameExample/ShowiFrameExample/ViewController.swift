@@ -68,25 +68,30 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: CappasityModelDelegate {
-    
+  
     //MARK: - CappasityModelDelegate method
-    func cappasityError(code: Int, description: String) {
+    func capService(didReceive error: Int, description: String) {
         self.activityIndicator.stopAnimating()
         Message.alert(viewController: self, title: "Error", message: description, handler: nil)
     }
     
     //MARK: - CappasityModelDelegate method
-    func modelInfoReceived() {
+    func capServiceDidReceiveModelInfo() {
         if let model = self.model {
             self.modelView.set(model, autoRun: true)
         }
+    }
+    
+    //MARK: - CappasityModelDelegate method
+    func capService(didReceive preview: UIImage, userInfo: AnyObject?) {
+        
     }
 }
 
 extension ViewController: CappasityModelViewDelegate {
     
     //MARK: - CappasityModelViewDelegate method
-    func contentLoaded() {
+    func capServiceDidLoadContent() {
         self.activityIndicator.stopAnimating()
     }
 }
