@@ -185,6 +185,13 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+SWIFT_CLASS("_TtC9Cappasity16CappasityAccount")
+@interface CappasityAccount : NSObject
+@property (nonatomic, readonly, copy) NSString * _Nullable name;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_PROTOCOL("_TtP9Cappasity17CappasityDelegate_")
 @protocol CappasityDelegate
 - (void)capServiceWithDidReceive:(NSInteger)error description:(NSString * _Nonnull)description;
@@ -253,6 +260,7 @@ SWIFT_CLASS("_TtC9Cappasity24CappasityModelViewParams")
 @property (nonatomic) BOOL enableImageZoom;
 @property (nonatomic) NSInteger zoomQuality;
 @property (nonatomic) BOOL hideZoomOption;
+@property (nonatomic) BOOL showAnalytics;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
