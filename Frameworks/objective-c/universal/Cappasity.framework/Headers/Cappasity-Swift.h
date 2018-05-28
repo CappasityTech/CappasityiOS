@@ -260,7 +260,7 @@ SWIFT_CLASS("_TtC9Cappasity24CappasityModelViewParams")
 @property (nonatomic) BOOL enableImageZoom;
 @property (nonatomic) NSInteger zoomQuality;
 @property (nonatomic) BOOL hideZoomOption;
-@property (nonatomic) BOOL showAnalytics;
+@property (nonatomic) BOOL analytics;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

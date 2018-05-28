@@ -1,4 +1,0 @@
-framework module Cappasity {
-    header "Cappasity-Swift.h"
-    requires objc
-}
