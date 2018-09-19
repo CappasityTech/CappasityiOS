@@ -10,12 +10,12 @@ class ViewController: UIViewController {
     fileprivate lazy var activityIndicator: UIActivityIndicatorView = {
         let activityIndicator = UIActivityIndicatorView()
         activityIndicator.frame = CGRect(x: 0, y: 0, width: 40, height: 40)
-        activityIndicator.activityIndicatorViewStyle = .gray
+        activityIndicator.style = .gray
 
         activityIndicator.translatesAutoresizingMaskIntoConstraints = false
         
         self.view.addSubview(activityIndicator)
-        self.view.bringSubview(toFront: activityIndicator)
+        self.view.bringSubviewToFront(activityIndicator)
         
         NSLayoutConstraint(item: activityIndicator, attribute: .centerX, relatedBy: .equal, toItem: self.view, attribute: .centerX, multiplier: 1.0, constant: 0.0).isActive = true
         NSLayoutConstraint(item: activityIndicator, attribute: .centerY, relatedBy: .equal, toItem: self.view, attribute: .centerY, multiplier: 1.0, constant: 0.0).isActive = true
@@ -35,6 +35,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        CappasityService.set(userAlias: "") //enter user's alias
         
         self.skuField.placeholder = "Enter sku"
         
@@ -68,9 +70,9 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: CappasityModelDelegate {
-  
+    
     //MARK: - CappasityModelDelegate method
-    func capService(didReceive error: Int, description: String) {
+    func capService(didReceive error: Int, description: String, userInfo: AnyObject?) {
         self.activityIndicator.stopAnimating()
         Message.alert(viewController: self, title: "Error", message: description, handler: nil)
     }

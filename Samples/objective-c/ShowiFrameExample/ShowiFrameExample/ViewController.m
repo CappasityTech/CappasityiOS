@@ -50,7 +50,7 @@
 }
 
 //MARK: - CappasityModelDelegate method
-- (void)capServiceWithDidReceive:(NSInteger)error description:(NSString * _Nonnull)description {
+- (void)capServiceWithDidReceive:(NSInteger)error description:(NSString * _Nonnull)description userInfo:(id _Nullable)userInfo {
     [_activityIndicator stopAnimating];
     
     UIAlertController* alert = [UIAlertController alertControllerWithTitle:@"Error"
