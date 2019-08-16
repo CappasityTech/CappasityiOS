@@ -6,27 +6,27 @@
 	<dict>
 		<key>Headers/Cappasity-Swift.h</key>
 		<data>
-		saSRE7zow5ELaSAD2mG/BxTZwIQ=
+		T7pUNua7K6MetDCW3nWK6N73Q/E=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ztopOQo/NBrCBa2hl7MMNDJHGZU=
+		Bp6iQQ+wvSz6l+lx43MszIoH7B4=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftdoc</key>
 		<data>
-		DX0IhedOZRYKNro8tZqYa/eRA3M=
+		IwD3r7I4xtiKw9PTSyhh5v3kCl4=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftmodule</key>
 		<data>
-		mSnQOJFQ/utHHgCqQLP86wh6RNM=
+		4X11JU02Pkby43sWQRrGIlc9bME=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		//WFRJKGMniwICPYhVjvVhJ1IsI=
+		DGj/iRZQNNyEKLlt45TIEr+XK3k=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		gD1uoaV18wMeDbGrFgN4Tj4tWGc=
+		SHGW1i5Jy+kaP64NTdaMwAtZGhY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,55 +39,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			saSRE7zow5ELaSAD2mG/BxTZwIQ=
+			T7pUNua7K6MetDCW3nWK6N73Q/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			INHUcj+cG/Gv7jmN1moEGuZ28+9w5LKdCj8USLcmC08=
+			tM18am3hVqtGJ72OsJ4B3+7KQljcLRCScnlZcOf75go=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DX0IhedOZRYKNro8tZqYa/eRA3M=
+			IwD3r7I4xtiKw9PTSyhh5v3kCl4=
 			</data>
 			<key>hash2</key>
 			<data>
-			MYconI/LbDjiv58ckbpWvbLTFaiDFVGR8whA9JEhS28=
+			uTpmylk1G7MmY3s216wAXG2FITVgfQKAwNhb0jHlt5Y=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mSnQOJFQ/utHHgCqQLP86wh6RNM=
+			4X11JU02Pkby43sWQRrGIlc9bME=
 			</data>
 			<key>hash2</key>
 			<data>
-			GLC495kBU5ipwH41oFKW4/7/xJZvtPWk7UpKFjrt1S4=
+			tYSfy4ldUAwpe1hf4mkIC1/9b5KjPlCYFMQc4fcL5hE=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			//WFRJKGMniwICPYhVjvVhJ1IsI=
+			DGj/iRZQNNyEKLlt45TIEr+XK3k=
 			</data>
 			<key>hash2</key>
 			<data>
-			eC3BLi0r5TwCHPP91oqK7Z1L/o5LkExVPTRqYRiwiOI=
+			cElDGRHVEcofvki7jjKtDfHozX/H09srQLnf9/toMXQ=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gD1uoaV18wMeDbGrFgN4Tj4tWGc=
+			SHGW1i5Jy+kaP64NTdaMwAtZGhY=
 			</data>
 			<key>hash2</key>
 			<data>
-			ECtoPgJNE2ZGxVCImi8JJ/80LDIowJkfzPOB8KChcnE=
+			hCjlve+Io/dgC0XtfvY4jbwIatYKBsCxtFEPdv9xFgI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
