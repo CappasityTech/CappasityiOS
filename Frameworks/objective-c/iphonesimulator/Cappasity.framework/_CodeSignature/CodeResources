@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/Cappasity-Swift.h</key>
 		<data>
-		T7pUNua7K6MetDCW3nWK6N73Q/E=
+		Q0gvtDO9d7PQtEYLSJZfseVr9u4=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Bp6iQQ+wvSz6l+lx43MszIoH7B4=
+		iCOILBZ5C9cWndicO7uG75d9Ks0=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftmodule</key>
 		<data>
-		4X11JU02Pkby43sWQRrGIlc9bME=
+		Wlzs+mNBc8eBhtmRQFrLReuz35U=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		SHGW1i5Jy+kaP64NTdaMwAtZGhY=
+		u38R+h2llsRN7aTgF6/oUUuGdjc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			T7pUNua7K6MetDCW3nWK6N73Q/E=
+			Q0gvtDO9d7PQtEYLSJZfseVr9u4=
 			</data>
 			<key>hash2</key>
 			<data>
-			tM18am3hVqtGJ72OsJ4B3+7KQljcLRCScnlZcOf75go=
+			aC5VSGghOVlXrJPpEmPGlnJ3g1CP2DR7y3b0wwmT3e4=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftdoc</key>
@@ -61,11 +61,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4X11JU02Pkby43sWQRrGIlc9bME=
+			Wlzs+mNBc8eBhtmRQFrLReuz35U=
 			</data>
 			<key>hash2</key>
 			<data>
-			tYSfy4ldUAwpe1hf4mkIC1/9b5KjPlCYFMQc4fcL5hE=
+			idAqy8C6JYnLQ8CyrVGCQXveuiO8aLdMRsAXSe19L7s=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftdoc</key>
@@ -83,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SHGW1i5Jy+kaP64NTdaMwAtZGhY=
+			u38R+h2llsRN7aTgF6/oUUuGdjc=
 			</data>
 			<key>hash2</key>
 			<data>
-			hCjlve+Io/dgC0XtfvY4jbwIatYKBsCxtFEPdv9xFgI=
+			Ke8sYku0iBI7lEGhWKZH4w/AbKfoSBxyT/ZD43RzWO0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

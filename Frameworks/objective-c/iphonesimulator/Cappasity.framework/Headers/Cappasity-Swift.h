@@ -190,6 +190,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+
+
 SWIFT_PROTOCOL("_TtP9Cappasity17CappasityDelegate_")
 @protocol CappasityDelegate
 - (void)capServiceWithDidReceive:(NSInteger)error description:(NSString * _Nonnull)description userInfo:(id _Nullable)userInfo;
@@ -496,6 +498,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="Cappasity",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
+
+
 
 
 SWIFT_PROTOCOL("_TtP9Cappasity17CappasityDelegate_")
