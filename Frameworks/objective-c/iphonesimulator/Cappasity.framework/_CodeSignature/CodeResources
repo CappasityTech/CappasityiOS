@@ -6,27 +6,43 @@
 	<dict>
 		<key>Headers/Cappasity-Swift.h</key>
 		<data>
-		Q0gvtDO9d7PQtEYLSJZfseVr9u4=
+		rCzpfNRQ+EOt4b9jO0XkJHtPiUI=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iCOILBZ5C9cWndicO7uG75d9Ks0=
+		sya/OHOxrAKOnZS521NBlc/sf08=
+		</data>
+		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
+		<data>
+		K84WoL4R/KdBeq6HvRIp5VdR0ic=
+		</data>
+		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
+		<data>
+		q+jk5c4IKpAAYkM+LsLT26C7wSo=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftdoc</key>
 		<data>
-		IwD3r7I4xtiKw9PTSyhh5v3kCl4=
+		K84WoL4R/KdBeq6HvRIp5VdR0ic=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftmodule</key>
 		<data>
-		Wlzs+mNBc8eBhtmRQFrLReuz35U=
+		q+jk5c4IKpAAYkM+LsLT26C7wSo=
+		</data>
+		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		ZVv9yL6TmlT2xfa+KznKc7rud9I=
+		</data>
+		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		OcwBfKkmV843CODO7n7Eww0K8vQ=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		DGj/iRZQNNyEKLlt45TIEr+XK3k=
+		ZVv9yL6TmlT2xfa+KznKc7rud9I=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		u38R+h2llsRN7aTgF6/oUUuGdjc=
+		OcwBfKkmV843CODO7n7Eww0K8vQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,55 +55,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q0gvtDO9d7PQtEYLSJZfseVr9u4=
+			rCzpfNRQ+EOt4b9jO0XkJHtPiUI=
 			</data>
 			<key>hash2</key>
 			<data>
-			aC5VSGghOVlXrJPpEmPGlnJ3g1CP2DR7y3b0wwmT3e4=
+			4eU1JRYadDKhd/5hy8/3tsgOX8sVZpkTegWyYAcJrS8=
+			</data>
+		</dict>
+		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			K84WoL4R/KdBeq6HvRIp5VdR0ic=
+			</data>
+			<key>hash2</key>
+			<data>
+			xQ9jnSlUrPBER0/13WiZP/oKbdU3xwRjYnX3KLYYU28=
+			</data>
+		</dict>
+		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q+jk5c4IKpAAYkM+LsLT26C7wSo=
+			</data>
+			<key>hash2</key>
+			<data>
+			JviKjiZjO51v9vFip+f3gN3jo2fqMY3glGemYgDxI0I=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IwD3r7I4xtiKw9PTSyhh5v3kCl4=
+			K84WoL4R/KdBeq6HvRIp5VdR0ic=
 			</data>
 			<key>hash2</key>
 			<data>
-			uTpmylk1G7MmY3s216wAXG2FITVgfQKAwNhb0jHlt5Y=
+			xQ9jnSlUrPBER0/13WiZP/oKbdU3xwRjYnX3KLYYU28=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Wlzs+mNBc8eBhtmRQFrLReuz35U=
+			q+jk5c4IKpAAYkM+LsLT26C7wSo=
 			</data>
 			<key>hash2</key>
 			<data>
-			idAqy8C6JYnLQ8CyrVGCQXveuiO8aLdMRsAXSe19L7s=
+			JviKjiZjO51v9vFip+f3gN3jo2fqMY3glGemYgDxI0I=
+			</data>
+		</dict>
+		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZVv9yL6TmlT2xfa+KznKc7rud9I=
+			</data>
+			<key>hash2</key>
+			<data>
+			SVEfVZ1pn5SMHQkvXVCWWXqANA4/sNxq1JYTiOJVpGI=
+			</data>
+		</dict>
+		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OcwBfKkmV843CODO7n7Eww0K8vQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			ywg82DbOzu4xeCEUdogLQS6kfemdFWK7tqDHabDQQ2g=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DGj/iRZQNNyEKLlt45TIEr+XK3k=
+			ZVv9yL6TmlT2xfa+KznKc7rud9I=
 			</data>
 			<key>hash2</key>
 			<data>
-			cElDGRHVEcofvki7jjKtDfHozX/H09srQLnf9/toMXQ=
+			SVEfVZ1pn5SMHQkvXVCWWXqANA4/sNxq1JYTiOJVpGI=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u38R+h2llsRN7aTgF6/oUUuGdjc=
+			OcwBfKkmV843CODO7n7Eww0K8vQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ke8sYku0iBI7lEGhWKZH4w/AbKfoSBxyT/ZD43RzWO0=
+			ywg82DbOzu4xeCEUdogLQS6kfemdFWK7tqDHabDQQ2g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
