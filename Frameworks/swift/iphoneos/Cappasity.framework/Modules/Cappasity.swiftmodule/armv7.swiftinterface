@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)
+// swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Cappasity
+import CommonCrypto
+import Foundation
+import ImageIO
+import SafariServices
+import Swift
+import UIKit
+import WebKit
+final public class CappasityService {
+  public static func set(userAlias: Swift.String)
+  @objc deinit
+}
+@objc public enum FileAccessType : Swift.Int {
+  case publicAccess = 0
+  case unlistedAccess = 1
+  case privateAccess = 2
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol CappasityDelegate : AnyObject {
+  func capService(didReceive error: Swift.Int, description: Swift.String, userInfo: Swift.AnyObject?)
+}
+public protocol CappasityModelsListDelegate : Cappasity.CappasityDelegate {
+  func capService(didReceive models: [Cappasity.CappasityModel])
+}
+final public class CappasityModelsList {
+  public init?(delegate: Cappasity.CappasityModelsListDelegate)
+  final public func nextModels(count: Swift.Int, offset: Swift.Int? = nil) -> Swift.Bool
+  final public func isValid() -> Swift.Bool
+  final public func clearStatus()
+  @objc deinit
+}
+public protocol CappasityLogDelegate : AnyObject {
+  func cappasityLogReadyToSend(log: [Swift.String : Swift.String])
+}
+final public class CappasityLog {
+  public static var shared: Cappasity.CappasityLog
+  weak final public var delegate: Cappasity.CappasityLogDelegate?
+  final public var log: [Swift.String : Swift.String]? {
+    get
+  }
+  @objc deinit
+}
+public protocol CappasityModelViewDelegate : Cappasity.CappasityDelegate {
+  func capServiceDidLoadContent()
+}
+@objc final public class CappasityModelView : UIKit.UIView {
+  weak final public var delegate: Cappasity.CappasityModelViewDelegate? {
+    get
+    set(newValue)
+  }
+  weak final public var viewController: UIKit.UIViewController? {
+    get
+    set(newValue)
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  final public func stopLoading()
+  final public func reload()
+  final public func set(_ model: Cappasity.CappasityModel, autoRotate: Swift.Bool? = nil, autoRun: Swift.Bool? = nil, showLogo: Swift.Bool? = nil, autoRotateTime: Swift.Float? = nil, autoRotateDelay: Swift.Float? = nil, autoRotateDir: Swift.Int? = nil, hideAutoRotateOptions: Swift.Bool? = nil, hideSettingsButton: Swift.Bool? = nil, enableImageZoom: Swift.Bool? = nil, zoomQuality: Swift.Int? = nil, hideZoomOption: Swift.Bool? = nil, analytics: Swift.Bool? = nil)
+  @objc deinit
+}
+public protocol CappasityModelDelegate : Cappasity.CappasityDelegate {
+  func capServiceDidReceiveModelInfo()
+  func capService(didReceive preview: UIKit.UIImage, userInfo: Swift.AnyObject?)
+}
+final public class CappasityModel {
+  final public var id: Swift.String? {
+    get
+  }
+  weak final public var delegate: Cappasity.CappasityModelDelegate? {
+    get
+    set(newValue)
+  }
+  final public var title: Swift.String? {
+    get
+  }
+  final public var sku: Swift.String? {
+    get
+  }
+  final public var access: Cappasity.FileAccessType? {
+    get
+  }
+  public init(withId id: Swift.String, delegate: Cappasity.CappasityModelDelegate?)
+  public init(withSku sku: Swift.String, delegate: Cappasity.CappasityModelDelegate?)
+  final public func receiveInfo()
+  final public func getPreview(widthPx: Swift.UInt, heightPx: Swift.UInt, userInfo: Swift.AnyObject? = nil)
+  final public func getPreview(widthPt: Swift.UInt, heightPt: Swift.UInt, userInfo: Swift.AnyObject? = nil)
+  @objc deinit
+}
+extension Cappasity.FileAccessType : Swift.Equatable {}
+extension Cappasity.FileAccessType : Swift.Hashable {}
+extension Cappasity.FileAccessType : Swift.RawRepresentable {}
