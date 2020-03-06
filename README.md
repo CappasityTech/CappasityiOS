@@ -1,11 +1,11 @@
-# Cappasity iOS Framework v0.5.1
+# Cappasity iOS Framework v0.5.2
 
 CappasityFramework contains functionality for working with models on the Cappasity platform, i.e.:
 * obtaining the models
 * obtaining the properties of a given model
 * displaying the model
 
-Copyright (c) 2017 - 2019, Cappasity Inc. All rights reserved.
+Copyright (c) 2017 - 2020, Cappasity Inc. All rights reserved.
 
 Redistribution and use in binary form, without modification, are permitted provided that the 
 following conditions are met:
