@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Cappasity
 import CommonCrypto
 import Foundation
@@ -46,6 +46,15 @@ final public class CappasityLog {
   }
   @objc deinit
 }
+@objc public enum CappasityZoomQuality : Swift.Int {
+  case sdZoom = 1
+  case hdZoom = 2
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
 public protocol CappasityModelViewDelegate : Cappasity.CappasityDelegate {
   func capServiceDidLoadContent()
 }
@@ -62,8 +71,13 @@ public protocol CappasityModelViewDelegate : Cappasity.CappasityDelegate {
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   final public func stopLoading()
   final public func reload()
-  final public func set(_ model: Cappasity.CappasityModel, autoRotate: Swift.Bool? = nil, autoRun: Swift.Bool? = nil, showLogo: Swift.Bool? = nil, autoRotateTime: Swift.Float? = nil, autoRotateDelay: Swift.Float? = nil, autoRotateDir: Swift.Int? = nil, hideAutoRotateOptions: Swift.Bool? = nil, hideSettingsButton: Swift.Bool? = nil, enableImageZoom: Swift.Bool? = nil, zoomQuality: Swift.Int? = nil, hideZoomOption: Swift.Bool? = nil, analytics: Swift.Bool? = nil)
+  final public func set(_ model: Cappasity.CappasityModel, controlsOffset: UIKit.UIOffset? = nil, isAutoRotate: Swift.Bool? = nil, isAutorun: Swift.Bool? = nil, isLogoShown: Swift.Bool? = nil, autoRotateTime: Swift.Float? = nil, autoRotateDelay: Swift.Float? = nil, autoRotateDirection: Cappasity.CappasityAutoRotateDirection? = nil, isAutoRotateOptionsHidden: Swift.Bool? = nil, isSettingsButtonHidden: Swift.Bool? = nil, isImageZoomEnabled: Swift.Bool? = nil, zoomQuality: Cappasity.CappasityZoomQuality? = nil, isZoomOptionHidden: Swift.Bool? = nil, isHintHidden: Swift.Bool? = nil)
   @objc deinit
+}
+extension Array {
+  public subscript(unsafeIndex index: Swift.Int) -> Element? {
+    get
+  }
 }
 public protocol CappasityModelDelegate : Cappasity.CappasityDelegate {
   func capServiceDidReceiveModelInfo()
@@ -93,6 +107,21 @@ final public class CappasityModel {
   final public func getPreview(widthPt: Swift.UInt, heightPt: Swift.UInt, userInfo: Swift.AnyObject? = nil)
   @objc deinit
 }
+@objc public enum CappasityAutoRotateDirection : Swift.Int {
+  case counterClockwise = -1
+  case clockwise = 1
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+}
 extension Cappasity.FileAccessType : Swift.Equatable {}
 extension Cappasity.FileAccessType : Swift.Hashable {}
 extension Cappasity.FileAccessType : Swift.RawRepresentable {}
+extension Cappasity.CappasityZoomQuality : Swift.Equatable {}
+extension Cappasity.CappasityZoomQuality : Swift.Hashable {}
+extension Cappasity.CappasityZoomQuality : Swift.RawRepresentable {}
+extension Cappasity.CappasityAutoRotateDirection : Swift.Equatable {}
+extension Cappasity.CappasityAutoRotateDirection : Swift.Hashable {}
+extension Cappasity.CappasityAutoRotateDirection : Swift.RawRepresentable {}
