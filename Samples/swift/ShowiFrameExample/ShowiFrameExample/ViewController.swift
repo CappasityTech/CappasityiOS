@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        CappasityService.set(userAlias: "") //enter user's alias
+        CappasityService.set(userAlias: "cappasity") //enter user's alias
         
         self.skuField.placeholder = "Enter sku"
         
@@ -80,7 +80,7 @@ extension ViewController: CappasityModelDelegate {
     //MARK: - CappasityModelDelegate method
     func capServiceDidReceiveModelInfo() {
         if let model = self.model {
-            self.modelView.set(model, autoRun: true)
+            self.modelView.set(model, isAutorun: true)
         }
     }
     
