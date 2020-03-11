@@ -32,21 +32,21 @@ POSSIBILITY OF SUCH DAMAGE.
 
 # Installation
 
-## CocoaPods
+### CocoaPods
 
 Cappasity for Swift is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 ```swift
     pod 'Cappasity'
 ```
 
-## Carthage
+### Carthage
 
 Cappasity for Swift is also available through [Carthage](https://github.com/Carthage/Carthage). To install just write into your Cartfile:
 ```swift
     github 'CappasityTech/CappasityiOS'
 ```
 
-## Manually
+### Manually
 
 If you prefer not to use any of the aforementioned dependency managers or you need Cappasity for Objective-C, you can integrate Cappasity into your project manually.
 
