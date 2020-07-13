@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Cappasity-Swift.h</key>
 		<data>
-		wr8FymaMUus2W4zG5q6SMi4wAP4=
+		C0kp4XlGIZSYhXimnjhVukMxa6U=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,19 +14,19 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		xjazDQb2FREwhBUg7n106UVyj+o=
+		dJPp3QlNRZYy867xi37wzVcVxxI=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<data>
-		xjazDQb2FREwhBUg7n106UVyj+o=
+		dJPp3QlNRZYy867xi37wzVcVxxI=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		NzBXXKPNj1IVW/my/1aw6q97K4Y=
+		kJeNMLo8jpz7ou+FZZk8i4aGv94=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		NzBXXKPNj1IVW/my/1aw6q97K4Y=
+		kJeNMLo8jpz7ou+FZZk8i4aGv94=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zhbEaRSmqDiWgnJ36/Jkcjy3OtM=
+		GN+ZVghwm9JnQ2MKtFrM8dfCtgI=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		hm02LocpRxL90vZqBZ1m2Xv6lxE=
+		xDhJSkfCjTGGjviLCxpDeO7D3AY=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftinterface</key>
 		<data>
-		zhbEaRSmqDiWgnJ36/Jkcjy3OtM=
+		GN+ZVghwm9JnQ2MKtFrM8dfCtgI=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftmodule</key>
 		<data>
-		hm02LocpRxL90vZqBZ1m2Xv6lxE=
+		xDhJSkfCjTGGjviLCxpDeO7D3AY=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Mcj/ayNwVFq48nMzbcFtfmCiGd4=
+		aoYiJuVtHcSrHwuHKJirqpOD2Vo=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nxLP7tUFn0KuQ+WZjODudGK5+7k=
+		d0T3JlpPalf9p3lwClXCTgFVCJA=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		Mcj/ayNwVFq48nMzbcFtfmCiGd4=
+		aoYiJuVtHcSrHwuHKJirqpOD2Vo=
 		</data>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		nxLP7tUFn0KuQ+WZjODudGK5+7k=
+		d0T3JlpPalf9p3lwClXCTgFVCJA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,55 +87,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wr8FymaMUus2W4zG5q6SMi4wAP4=
+			C0kp4XlGIZSYhXimnjhVukMxa6U=
 			</data>
 			<key>hash2</key>
 			<data>
-			4zFOizltxyjfb7z5M0ukl7oN8ssMvVpp106/D2OCkI0=
+			GzynWIllrDTOZYNTbyaoeiX7jLr87QZmhHB7b5Pu6sQ=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xjazDQb2FREwhBUg7n106UVyj+o=
+			dJPp3QlNRZYy867xi37wzVcVxxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tB78hafek0atVUcLUqSojhIjllyh79SnD9PJrYFEUZE=
+			pua5Lqe1OwIbIW9sGqPeES+UGrrFlZfbjXMVcqxMfXQ=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/Project/i386.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xjazDQb2FREwhBUg7n106UVyj+o=
+			dJPp3QlNRZYy867xi37wzVcVxxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			tB78hafek0atVUcLUqSojhIjllyh79SnD9PJrYFEUZE=
+			pua5Lqe1OwIbIW9sGqPeES+UGrrFlZfbjXMVcqxMfXQ=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NzBXXKPNj1IVW/my/1aw6q97K4Y=
+			kJeNMLo8jpz7ou+FZZk8i4aGv94=
 			</data>
 			<key>hash2</key>
 			<data>
-			tMkV5U9dWwzBP1Qgjrwule/hCcdjAdd2eXq7evKg1uQ=
+			fefjkaRJsZ17BUf7fFDvUWbgzj7Ka9O/Xw3KgjlKvmQ=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NzBXXKPNj1IVW/my/1aw6q97K4Y=
+			kJeNMLo8jpz7ou+FZZk8i4aGv94=
 			</data>
 			<key>hash2</key>
 			<data>
-			tMkV5U9dWwzBP1Qgjrwule/hCcdjAdd2eXq7evKg1uQ=
+			fefjkaRJsZ17BUf7fFDvUWbgzj7Ka9O/Xw3KgjlKvmQ=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -153,22 +153,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zhbEaRSmqDiWgnJ36/Jkcjy3OtM=
+			GN+ZVghwm9JnQ2MKtFrM8dfCtgI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8CgKvXD3lszVu3M7xcTCbWmLiiL+7PA0tszxvIUWxy8=
+			Ch2Z5d6khtOY9XdF6YS7pDg4YMlGMEFyEn75Esg4nbk=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hm02LocpRxL90vZqBZ1m2Xv6lxE=
+			xDhJSkfCjTGGjviLCxpDeO7D3AY=
 			</data>
 			<key>hash2</key>
 			<data>
-			pfi+RdAd+kXeowUjpMogkNRweKfCcWHzM3HNhdyWSPs=
+			a/BG8SUi3zhWevojbpRsl7ueFlsfGxZDnUfLY1wRNw8=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftdoc</key>
@@ -186,22 +186,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zhbEaRSmqDiWgnJ36/Jkcjy3OtM=
+			GN+ZVghwm9JnQ2MKtFrM8dfCtgI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8CgKvXD3lszVu3M7xcTCbWmLiiL+7PA0tszxvIUWxy8=
+			Ch2Z5d6khtOY9XdF6YS7pDg4YMlGMEFyEn75Esg4nbk=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hm02LocpRxL90vZqBZ1m2Xv6lxE=
+			xDhJSkfCjTGGjviLCxpDeO7D3AY=
 			</data>
 			<key>hash2</key>
 			<data>
-			pfi+RdAd+kXeowUjpMogkNRweKfCcWHzM3HNhdyWSPs=
+			a/BG8SUi3zhWevojbpRsl7ueFlsfGxZDnUfLY1wRNw8=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -219,22 +219,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Mcj/ayNwVFq48nMzbcFtfmCiGd4=
+			aoYiJuVtHcSrHwuHKJirqpOD2Vo=
 			</data>
 			<key>hash2</key>
 			<data>
-			pVzZONTJ3pXw2SxD0cF80ppNS1Y53bV70KUjrlYgeqs=
+			YkEDMcfREhG5MR5Xc6NQe43KLSX9yTucO5h2uu2BUBQ=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nxLP7tUFn0KuQ+WZjODudGK5+7k=
+			d0T3JlpPalf9p3lwClXCTgFVCJA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9OsIhp4Bdx9vqlHDO+H2mfyeG0Pm1JKpp5FuQSO0dpE=
+			ZJY8+0Nz9wNwps1rlh0Kaioh208qMHzXpXCNCxJs7N0=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftdoc</key>
@@ -252,22 +252,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Mcj/ayNwVFq48nMzbcFtfmCiGd4=
+			aoYiJuVtHcSrHwuHKJirqpOD2Vo=
 			</data>
 			<key>hash2</key>
 			<data>
-			pVzZONTJ3pXw2SxD0cF80ppNS1Y53bV70KUjrlYgeqs=
+			YkEDMcfREhG5MR5Xc6NQe43KLSX9yTucO5h2uu2BUBQ=
 			</data>
 		</dict>
 		<key>Modules/Cappasity.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nxLP7tUFn0KuQ+WZjODudGK5+7k=
+			d0T3JlpPalf9p3lwClXCTgFVCJA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9OsIhp4Bdx9vqlHDO+H2mfyeG0Pm1JKpp5FuQSO0dpE=
+			ZJY8+0Nz9wNwps1rlh0Kaioh208qMHzXpXCNCxJs7N0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

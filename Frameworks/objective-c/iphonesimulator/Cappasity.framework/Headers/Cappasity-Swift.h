@@ -234,7 +234,7 @@ SWIFT_CLASS("_TtC9Cappasity14CappasityModel")
 @property (nonatomic, readonly) enum FileAccessType access;
 - (nonnull instancetype)initWithId:(NSString * _Nonnull)id delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithSku:(NSString * _Nonnull)sku delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithLink:(NSString * _Nonnull)link delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithLink:(NSString * _Nonnull)link delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
 - (void)receiveInfo;
 - (void)getPreviewWithWidthPx:(NSUInteger)widthPx heightPx:(NSUInteger)heightPx userInfo:(id _Nullable)userInfo;
 - (void)getPreviewWithWidthPt:(NSUInteger)widthPt heightPt:(NSUInteger)heightPt userInfo:(id _Nullable)userInfo;
@@ -578,7 +578,7 @@ SWIFT_CLASS("_TtC9Cappasity14CappasityModel")
 @property (nonatomic, readonly) enum FileAccessType access;
 - (nonnull instancetype)initWithId:(NSString * _Nonnull)id delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithSku:(NSString * _Nonnull)sku delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithLink:(NSString * _Nonnull)link delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithLink:(NSString * _Nonnull)link delegate:(id <CappasityModelDelegate> _Nullable)delegate OBJC_DESIGNATED_INITIALIZER;
 - (void)receiveInfo;
 - (void)getPreviewWithWidthPx:(NSUInteger)widthPx heightPx:(NSUInteger)heightPx userInfo:(id _Nullable)userInfo;
 - (void)getPreviewWithWidthPt:(NSUInteger)widthPt heightPt:(NSUInteger)heightPt userInfo:(id _Nullable)userInfo;

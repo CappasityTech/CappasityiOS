@@ -95,7 +95,7 @@ import WebKit
   }
   @objc public init(withId id: Swift.String, delegate: Cappasity.CappasityModelDelegate?)
   @objc public init(withSku sku: Swift.String, delegate: Cappasity.CappasityModelDelegate?)
-  @objc public init(withLink link: Swift.String, delegate: Cappasity.CappasityModelDelegate?)
+  @objc public init?(withLink link: Swift.String, delegate: Cappasity.CappasityModelDelegate?)
   @objc final public func receiveInfo()
   @objc final public func getPreview(widthPx: Swift.UInt, heightPx: Swift.UInt, userInfo: Swift.AnyObject?)
   @objc final public func getPreview(widthPt: Swift.UInt, heightPt: Swift.UInt, userInfo: Swift.AnyObject?)
