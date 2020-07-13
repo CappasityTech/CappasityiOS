@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Cappasity"
-  spec.version      = "0.5.3"
+  spec.version      = "0.5.4"
   spec.summary      = "Cappasity Framework contains functionality for working with models on the Cappasity platform."
 
   spec.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios
 
-  spec.source       = { :http => "https://github.com/CappasityTech/CappasityiOS/releases/download/v0.5.3/Cappasity.zip" }
+  spec.source       = { :http => "https://github.com/CappasityTech/CappasityiOS/releases/download/v0.5.4/Cappasity.zip" }
 
   spec.ios.deployment_target = "9.0"
   spec.ios.vendored_frameworks = "Cappasity.framework"
