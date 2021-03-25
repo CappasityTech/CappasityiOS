@@ -12,7 +12,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [CappasityService setWithUserAlias:@"cappasity"]; //enter user's alias
+    [CappasityService setWithUserAlias:@"cappasity" completionHandler: NULL]; //enter user's alias
     return YES;
 }
 
