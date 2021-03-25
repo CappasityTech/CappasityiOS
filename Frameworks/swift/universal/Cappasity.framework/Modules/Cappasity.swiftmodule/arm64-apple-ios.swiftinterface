@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
-// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Cappasity
+// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Cappasity
 import CommonCrypto
 import Foundation
 import ImageIO
@@ -9,7 +9,9 @@ import Swift
 import UIKit
 import WebKit
 @_hasMissingDesignatedInitializers final public class CappasityService {
-  public static func set(userAlias: Swift.String)
+  public struct CapServiceError {
+  }
+  public static func set(userAlias: Swift.String, completionHandler: ((Swift.Bool, Cappasity.CappasityService.CapServiceError?) -> Swift.Void)? = nil)
   @objc deinit
 }
 @objc public enum FileAccessType : Swift.Int {
@@ -33,17 +35,6 @@ final public class CappasityModelsList {
   final public func nextModels(count: Swift.Int, offset: Swift.Int? = nil) -> Swift.Bool
   final public func isValid() -> Swift.Bool
   final public func clearStatus()
-  @objc deinit
-}
-public protocol CappasityLogDelegate : AnyObject {
-  func cappasityLogReadyToSend(log: [Swift.String : Swift.String])
-}
-@_hasMissingDesignatedInitializers final public class CappasityLog {
-  public static var shared: Cappasity.CappasityLog
-  weak final public var delegate: Cappasity.CappasityLogDelegate?
-  final public var log: [Swift.String : Swift.String]? {
-    get
-  }
   @objc deinit
 }
 @objc public enum CappasityZoomQuality : Swift.Int {

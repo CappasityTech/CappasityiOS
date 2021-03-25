@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :http => "https://github.com/CappasityTech/CappasityiOS/releases/download/v0.5.4/Cappasity.zip" }
 
-  spec.ios.deployment_target = "9.0"
+  spec.ios.deployment_target = "11.0"
   spec.ios.vendored_frameworks = "Cappasity.framework"
 
 end

@@ -10,11 +10,11 @@
 		27EC86BF1F7ABF3C00499C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EC86BD1F7ABF3C00499C10 /* Main.storyboard */; };
 		27EC86C11F7ABF3C00499C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EC86C01F7ABF3C00499C10 /* Assets.xcassets */; };
 		27EC86C41F7ABF3C00499C10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EC86C21F7ABF3C00499C10 /* LaunchScreen.storyboard */; };
+		803144D2260CF49E004DC8AE /* Cappasity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 803144D1260CF49E004DC8AE /* Cappasity.framework */; };
+		803144D3260CF49E004DC8AE /* Cappasity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 803144D1260CF49E004DC8AE /* Cappasity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BCF23C7E224D0CF4003C1DC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EC86B81F7ABF3C00499C10 /* AppDelegate.m */; };
 		BCF23C7F224D0CF8003C1DC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EC86BB1F7ABF3C00499C10 /* ViewController.m */; };
 		BCF23C80224D0CFD003C1DC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EC86B51F7ABF3C00499C10 /* main.m */; };
-		BCF23C94224D1610003C1DC7 /* Cappasity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF23C93224D1610003C1DC7 /* Cappasity.framework */; };
-		BCF23C95224D1616003C1DC7 /* Cappasity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCF23C93224D1610003C1DC7 /* Cappasity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BCF23C95224D1616003C1DC7 /* Cappasity.framework in Embed Frameworks */,
+				803144D3260CF49E004DC8AE /* Cappasity.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +42,7 @@
 		27EC86C01F7ABF3C00499C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27EC86C31F7ABF3C00499C10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27EC86C51F7ABF3C00499C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCF23C93224D1610003C1DC7 /* Cappasity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cappasity.framework; path = "../../../Frameworks/objective-c/iphoneos/Cappasity.framework"; sourceTree = "<group>"; };
+		803144D1260CF49E004DC8AE /* Cappasity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cappasity.framework; path = "../../../Frameworks/objective-c/universal/Cappasity.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCF23C94224D1610003C1DC7 /* Cappasity.framework in Frameworks */,
+				803144D2260CF49E004DC8AE /* Cappasity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		27EC86D51F7AD14D00499C10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BCF23C93224D1610003C1DC7 /* Cappasity.framework */,
+				803144D1260CF49E004DC8AE /* Cappasity.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -257,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -301,6 +301,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -309,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +324,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../../Frameworks/objective-c/iphoneos";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../../Frameworks/objective-c/universal";
 				INFOPLIST_FILE = ShowiFrameExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exp.ShowiFrameExample;
@@ -337,7 +338,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../../Frameworks/objective-c/iphoneos";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../../Frameworks/objective-c/universal";
 				INFOPLIST_FILE = ShowiFrameExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.exp.ShowiFrameExample;
